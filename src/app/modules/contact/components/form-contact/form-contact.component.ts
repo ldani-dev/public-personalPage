@@ -92,7 +92,9 @@ export class FormContactComponent {
         .then(() => {
           this.sending = false
           this.router.navigate(['success'])
-        }, () => {
+        }, (err) => {
+          console.log('error, recuerda crear tu cuenta en EmailJs. En el Readme.md de este proyecto esta como realizar la instación  ')
+          console.log('error ==>', err)
           this.sending = false
         });
   }

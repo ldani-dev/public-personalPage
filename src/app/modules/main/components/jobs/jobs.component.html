@@ -22,11 +22,7 @@
             <h3>{{ job.title | translate }}</h3>
             <h4 class="job-description">{{ job.description | translate }}</h4>
             <a [href]="job.link" target="_blank" class="go-to-website">
-              {{
-                job.type === "video"
-                  ? ("JOBS.VER_VIDEO" | translate)
-                  : ("JOBS.VISITAR_WEB" | translate)
-              }}
+              {{ "JOBS.VISITAR_WEB" | translate }}
               <fa-icon class="icon-angle-right" [icon]="faAngleRight"></fa-icon
             ></a>
           </figcaption>
