@@ -19,13 +19,6 @@ export class CollaborationsComponent {
       description: 'COLLABORATIONS.EMPRESA1.DESCRIPCION',
     },
     {
-      logo: `${this.path}/visyon.jpg`,
-      link: 'https://visyon360.com/',
-      title: 'Vysion 360',
-      sector: 'Multimedia',
-      description: 'COLLABORATIONS.EMPRESA2.DESCRIPCION',
-    },
-    {
       logo: `${this.path}/leanga.jpg`,
       link: 'https://leangasoftware.es/',
       title: 'Leanga Software',
@@ -38,14 +31,6 @@ export class CollaborationsComponent {
       title: 'Mochileros',
       sector: 'Viajes',
       description: 'COLLABORATIONS.EMPRESA4.DESCRIPCION',
-    },
-
-    {
-      logo: `${this.path}/asitur.jpg`,
-      link: 'https://asitur.es/',
-      title: 'Asitur',
-      sector: 'Seguros',
-      description: 'COLLABORATIONS.EMPRESA5.DESCRIPCION',
     },
   ]
   constructor(private router: Router) { }

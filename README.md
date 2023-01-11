@@ -24,12 +24,6 @@ En este apartado puedes agregar todos tus proyectos y darle a conocer al mundo t
 <img  width=400 src="src/assets/readme/proyectos.png" alt="Proyectos">
 <br>
 
-### **- Empresas**
-En esta sección puedes agregar las empresas con las cuales hayas trabajado.
-<br>
-<br>
-<img  width=400 src="src/assets/readme/empresas.png" alt="Empresas">
-<br>
 
 ### **- Recomendaciones**
 Puedes agregar todos los testimonios de las personas con las cuales has trabajado.
